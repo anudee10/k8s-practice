@@ -5,7 +5,7 @@ metadata:
    labels: 
       app: nginx
 spec: 
-   selectors: 
+   selector: 
       name: nginx
    replicas: 2
    templates: 
